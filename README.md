@@ -87,8 +87,3 @@ Retrieves the stored password and salt for a given username from the CSV file.
 
 - **Returns**:
   - `[password, salt]` (list): The stored password and salt if found, otherwise `None`.
-
-- **How it Works**:
-  - Reads the CSV file.
-  - Searches for the username in the stored rows.
-  - Returns the corresponding password and salt if the username is found.
