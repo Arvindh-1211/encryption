@@ -87,15 +87,3 @@ Retrieves the stored password and salt for a given username from the CSV file.
 
 - **Returns**:
   - `[password, salt]` (list): The stored password and salt if found, otherwise `None`.
-
-- **How it Works**:
-  - Reads the CSV file.
-  - Searches for the username in the stored rows.
-  - Returns the corresponding password and salt if the username is found.
-
-## Usage
-
-To run the program, simply execute the script. Follow the on-screen prompts to sign up or sign in.
-
-```bash
-python main.py
